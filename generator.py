@@ -1,8 +1,10 @@
 # generator.py
 import cohere
 import os
+from dotenv import load_dotenv
 
-# Get API key from environment variable
+load_dotenv()  # Load from .env file
+
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 co = cohere.Client(COHERE_API_KEY)
 
