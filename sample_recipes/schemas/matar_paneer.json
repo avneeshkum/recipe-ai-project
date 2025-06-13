@@ -1,1 +1,70 @@
-
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Aloo Matar Paneer",
+    "recipeCuisine": "indian",
+    "recipeCategory": "Main course",
+    "recipeYield": "2 servings",
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+        "200g paneer, cut into small cubes",
+        "1 medium-sized potato, peeled and cut into small cubes (about 1 cup)",
+        "1/2 cup fresh or frozen peas",
+        "2 tablespoons ghee",
+        "1/2 teaspoon cumin seeds",
+        "2 green chilies, finely chopped",
+        "1/2 inch ginger, grated",
+        "2 garlic cloves, minced",
+        "1/2 teaspoon turmeric powder",
+        "1/2 teaspoon red chili powder (adjust to taste)",
+        "1/2 teaspoon coriander powder",
+        "1/2 teaspoon garam masala",
+        "1/2 cup water",
+        "Salt to taste",
+        "Freshly chopped coriander leaves for garnishing",
+        "6."
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1. Heat ghee in a pan over medium heat. Add the cumin seeds and let them splutter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2. Add the chopped green chilies, ginger, and garlic. Saut\u00e9 for about a minute until fragrant, taking care not to burn them."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "3. Now add the turmeric, chili powder, coriander powder, and garam masala. Cook the spices for about 30 seconds, stirring continuously."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "4. Add the potato cubes and peas. Stir well to coat the vegetables with the spices. Saut\u00e9 for 2-3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "5. Pour in the water, season with salt, and bring it to a boil. Then, reduce the heat to low, cover, and simmer until the potatoes are fork-tender, about 10-12 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "6. Gently stir in the paneer cubes and cook for another 2-3 minutes, taking care not to break the paneer pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "7. Garnish with freshly chopped coriander leaves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "7. **Serving Suggestion**:"
+        }
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "1544.4 kcal",
+        "proteinContent": "70.04 g",
+        "carbohydrateContent": "130.48 g",
+        "fatContent": "84.72 g"
+    }
+}
