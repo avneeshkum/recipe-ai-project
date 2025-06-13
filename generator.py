@@ -1,7 +1,9 @@
 # generator.py
 import cohere
+import os
 
-COHERE_API_KEY = "zveUzHYL6pAbHtUqs6cPWb8fId1kWzBZZZDdptH9"
+# Get API key from environment variable
+COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 co = cohere.Client(COHERE_API_KEY)
 
 def generate_recipe(ingredients, dietary_preference=None, cuisine=None, servings=1, difficulty="medium"):
