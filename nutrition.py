@@ -1,8 +1,12 @@
+# nutrition.py
 import requests
+import os
+from dotenv import load_dotenv
 
-# Direct API credentials (DO NOT commit these in real-world projects)
-NUTRITIONIX_APP_ID = "e8eb6652"
-NUTRITIONIX_API_KEY = "8f1fd4f6976a5b982cf1971050428e10"
+load_dotenv()  # Load environment variables from .env file
+
+NUTRITIONIX_APP_ID = os.getenv("NUTRITIONIX_APP_ID")
+NUTRITIONIX_API_KEY = os.getenv("NUTRITIONIX_API_KEY")
 
 BASE_URL = "https://trackapi.nutritionix.com/v2/natural/nutrients"
 
