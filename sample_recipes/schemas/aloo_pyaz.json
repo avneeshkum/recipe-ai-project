@@ -1,0 +1,57 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Potato and Onion Hash",
+    "recipeCuisine": "General",
+    "recipeCategory": "Main course",
+    "recipeYield": "1 servings",
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+        "2 medium-sized potatoes (about 300g total), cut into small cubes",
+        "1 small onion (about 50g), finely chopped",
+        "2 cloves garlic, minced",
+        "1 tablespoon olive oil",
+        "1 teaspoon dried thyme",
+        "Salt and black pepper to taste",
+        "6."
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1. Heat the olive oil in a skillet over medium heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2. Add the onions and garlic to the skillet and saut\u00e9 until translucent, about 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "3. Add the potatoes to the skillet and stir to combine with the onions and garlic."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "4. Sprinkle the thyme, salt, and pepper over the potato mixture and stir to distribute the spices evenly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "5. Cover the skillet and cook for about 15 minutes, stirring occasionally to prevent sticking and ensure even cooking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "6. Uncover the skillet and continue cooking for another 10 minutes or until the potatoes are tender and lightly browned, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "7. **Serving Suggestion**:"
+        }
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "202.25 kcal",
+        "proteinContent": "5.61 g",
+        "carbohydrateContent": "46.13 g",
+        "fatContent": "0.4 g"
+    }
+}
