@@ -1,12 +1,13 @@
-🧑‍🍳 AI-Powered Recipe Generator (CLI + UI)
-A smart, AI-powered recipe generator that creates personalized and nutritious recipes based on user-selected ingredients. Now available in both Command-Line and Streamlit UI formats, this application integrates allergy detection, ingredient substitutions, nutrition analysis, shopping lists, and PDF exports, making healthy eating more accessible!
+#🧑‍🍳 AI-Powered Recipe Generator (CLI + UI)
 
-📌 Key Features
+A smart, AI-powered recipe generator that creates personalized and nutritious recipes based on user-selected ingredients. Now available in both Command-Line and Streamlit UI formats, this application seamlessly integrates allergy detection, ingredient substitutions, nutrition analysis, shopping lists, and PDF exports, making healthy eating more accessible!
+
+##📌 Key Features
 ✅ AI-based Recipe Generation: Enter ingredients and get tailored recipes instantly ⚠️ Allergy Detection: Alerts users if any entered ingredients may cause allergic reactions 🔁 Smart Substitutions: Suggests alternative ingredients for dietary needs 🧪 Advanced Nutrition Analysis: Provides calorie, protein, carbohydrate, and fat breakdowns using Nutritionix API 🛒 Auto-Generated Shopping List: Saves time by compiling required ingredients into a structured list 📄 Save Recipes as Text & PDF: Export recipes in a clean, formatted .txt or .pdf file 🍽️ Dietary Preferences Support: Choose Veg, Vegan, Keto, Gluten-Free, or Custom Diets 🖥️ Streamlit UI Version: Fully interactive recipe generator with intuitive buttons & form inputs 🧑‍💻 CLI Version: Lightweight, fast command-line interaction
 
 🚀 How to Run
 💻 CLI Version
-1️⃣ Install Dependencies
+1️⃣ Install Dependencies:
 
 bash
 pip install -r requirements.txt
@@ -27,7 +28,7 @@ View nutrition breakdown & shopping list
 Save recipe as .txt or .pdf
 
 🖥️ Streamlit UI Version
-1️⃣ Install Streamlit (if not installed)
+1️⃣ Install Streamlit (if not installed):
 
 bash
 pip install streamlit
@@ -46,6 +47,7 @@ Generate recipe & nutrition summary
 Save as PDF, Text, or Schema
 
 🛠️ Project Structure
+php
 Recipe-Generator/
 ├── main.py             # CLI-based recipe generator  
 ├── app.py              # Streamlit UI-based recipe generator  
@@ -79,3 +81,5 @@ Streamlit – Interactive UI framework for web-based functionality
 
 📌 Project Note
 Developed as part of an internship assignment, this project showcases expertise in Python, API integration, AI-powered recipe generation, and interactive web applications.
+
+
