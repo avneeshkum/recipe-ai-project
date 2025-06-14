@@ -1,8 +1,8 @@
-#🧑‍🍳 AI-Powered Recipe Generator (CLI + UI)
+🧑‍🍳 AI-Powered Recipe Generator (CLI + UI)
 
 A smart, AI-powered recipe generator that creates personalized and nutritious recipes based on user-selected ingredients. Now available in both Command-Line and Streamlit UI formats, this application seamlessly integrates allergy detection, ingredient substitutions, nutrition analysis, shopping lists, and PDF exports, making healthy eating more accessible!
 
-##📌 Key Features
+📌 Key Features
 ✅ AI-based Recipe Generation: Enter ingredients and get tailored recipes instantly ⚠️ Allergy Detection: Alerts users if any entered ingredients may cause allergic reactions 🔁 Smart Substitutions: Suggests alternative ingredients for dietary needs 🧪 Advanced Nutrition Analysis: Provides calorie, protein, carbohydrate, and fat breakdowns using Nutritionix API 🛒 Auto-Generated Shopping List: Saves time by compiling required ingredients into a structured list 📄 Save Recipes as Text & PDF: Export recipes in a clean, formatted .txt or .pdf file 🍽️ Dietary Preferences Support: Choose Veg, Vegan, Keto, Gluten-Free, or Custom Diets 🖥️ Streamlit UI Version: Fully interactive recipe generator with intuitive buttons & form inputs 🧑‍💻 CLI Version: Lightweight, fast command-line interaction
 
 🚀 How to Run
