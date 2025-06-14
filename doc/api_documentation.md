@@ -5,6 +5,7 @@
 | Module                     | Description                                  |
 | -------------------------- | -------------------------------------------- |
 | `main.py`                  | CLI interface to interact with recipe engine |
+| `app.py`                   | Streamlit-based interactive web UI           |
 | `generator.py`             | Handles AI recipe generation via Cohere API  |
 | `nutrition.py`             | Retrieves nutrition data using Nutritionix   |
 | `substitutions.py`         | Suggests ingredient replacements             |
@@ -26,6 +27,29 @@
   * Cuisine type
   * Number of servings
   * Difficulty level
+
+> ⚠️ Note: Originally designed for Google AI Studio API. Due to overload errors, the system now uses **Cohere API** as a stable fallback.
+
+---
+
+## 🖥️ Streamlit Web UI
+
+* Fully interactive web application using **Streamlit==1.35.0**.
+* Accessible via browser at `localhost` after launching the app.
+* Features:
+
+  * Text input for ingredients
+  * Dropdowns for diet, cuisine, servings, difficulty
+  * Real-time recipe generation
+  * View nutrition facts & shopping list
+  * Export recipe to `.pdf`, `.txt`, or `.json`
+
+### Launch Instructions:
+
+```bash
+pip install streamlit==1.35.0
+streamlit run app.py
+```
 
 ---
 
@@ -67,6 +91,7 @@ print(data['foods'][0]['nf_calories'])
 * **Auto-generated shopping list**
 * **Export options**: `.txt`, `.pdf`, or `.json`
 * **Optional meal planner**: 3-day plan
+* **Structured output using Recipe Schema** for standardization and reusability
 
 ---
 
@@ -75,6 +100,7 @@ print(data['foods'][0]['nf_calories'])
 ```
 ai_recipe_project/
 ├── main.py
+├── app.py
 ├── generator.py
 ├── nutrition.py
 ├── substitutions.py
@@ -84,8 +110,12 @@ ai_recipe_project/
 ├── sample_recipes/
 │   ├── paneer_recipe.txt
 │   ├── aloo_gobi.pdf
+│   ├── ...
 │   └── schemas/
 │       └── recipe.json
+├── docs/
+│   ├── api_documentation.md
+│   └── dietary_guide.md
 └── utils/
     ├── sanitizer.py
     └── allergy_checker.py
@@ -118,7 +148,7 @@ ai_recipe_project/
 * Nutritionix Natural Language API
 * FPDF (for recipe PDF export)
 * Requests (API calls)
-* Streamlit (UI)
+* Streamlit==1.35.0 (Web Interface)
 * CLI (Command Line Interface)
 
 ---
@@ -128,3 +158,4 @@ ai_recipe_project/
 * API & logic docs: `docs/api_documentation.md`
 * Dietary reference: `docs/dietary_guide.md`
 * Recipe schemas: `sample_recipes/schemas/recipe.json`
+* 20+ sample recipe files in: `sample_recipes/`
