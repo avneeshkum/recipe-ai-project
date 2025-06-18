@@ -125,7 +125,7 @@ Recipe-Generator/
 
 ## 📹 Demo Video
 
-🎥 \[Attach your demo video link here]
+🎥 https://drive.google.com/file/d/17ilhc4vcmYFNDrJCaPXEz7tFp3Suf9fT/view?usp=sharing
 
 ---
 
